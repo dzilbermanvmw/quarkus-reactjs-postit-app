@@ -42,7 +42,7 @@ components:
 
   - alias: node-frontend-dev
     mountSources: true
-    image: 'quay.io/eclipse/che-nodejs12-community:nightly'
+    image: 'quay.io/eclipse/che-nodejs12-community:7.37.2'
     memoryLimit: 768Mi
     type: dockerimage
     endpoints:
@@ -56,7 +56,7 @@ components:
   # Dev/build containers
   - alias: quarkus-backend-dev
     type: dockerimage
-    image: quay.io/quarkus/centos-quarkus-maven:20.1.0-java11
+    image: quay.io/quarkus/centos-quarkus-maven:21.2.0-java11
     memoryLimit: 4Gi
     command: ['sleep']
     args: ['infinity']
