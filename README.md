@@ -17,7 +17,7 @@ https://<your-codeready-workspaces-instance>/factory?url=https://github.com/redh
 
 Alternatively,
 1. Add your prefered Che or CodeReady Workspaces instance: https://blog.sunix.org/factory (that would just do the right redirection to the right server based on your preferences)
-2. Start the workspace: [![Contribute](factory-contribute.svg)](https://blog.sunix.org/factory?url=https://github.com/redhat-developer-demos/quarkus-reactjs-postit-app)
+2. Start the workspace: [![Contribute](factory-contribute.svg)](https://codeready-openshift-workspaces.apps.rosa-126e.soqt.p1.openshiftapps.com/factory?url=https://github.com/redhat-developer-demos/quarkus-reactjs-postit-app)
 
 ![Application topology](topology.png "Application Topology")
 
